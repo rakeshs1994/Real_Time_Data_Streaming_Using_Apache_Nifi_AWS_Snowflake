@@ -10,6 +10,9 @@ This project focuses on generating synthetic datasets on an AWS EC2 instance usi
 Generating The Raw Data Using Python Jupyter lab on EC2 -> Push The Raw Data Into AWS S3 Using Apache NIFI -> Transform The Data and Load into Snowflake Tables.
 
 
+<img width="2712" height="996" alt="image" src="https://github.com/user-attachments/assets/aef8b94c-43c7-484c-bb18-ac18071f2d6b" />
+
+
 ### Services used:
 
 1. **AWS EC2:**  Amazon EC2 (Elastic Compute Cloud) is a core service in Amazon Web Services (AWS) that provides virtual servers (called instances) you can use to run applications, host websites, process data, or do almost anything you’d do on a physical computer — but in the cloud.
