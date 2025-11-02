@@ -7,8 +7,6 @@ This project focuses on generating synthetic datasets on an AWS EC2 instance usi
 
 ### Architecture:
 
-Generating The Raw Data Using Python Jupyter lab on EC2 -> Push The Raw Data Into AWS S3 Using Apache NIFI -> Transform The Data and Load into Snowflake Tables.
-
 
 <img width="2712" height="996" alt="image" src="https://github.com/user-attachments/assets/aef8b94c-43c7-484c-bb18-ac18071f2d6b" />
 
@@ -25,3 +23,7 @@ Generating The Raw Data Using Python Jupyter lab on EC2 -> Push The Raw Data Int
 It lets you store and retrieve any amount of data (like files, images, videos, logs, or backups) from anywhere on the internet — safely, securely, and at scale.
 
 5. **Snowflake:** Snowflake is a cloud-based data warehouse — a system used to store, process, and analyze large amounts of data efficiently.
+
+### Project Flow:
+
+Generating The Raw Data Using Python Jupyter lab on EC2 -> Push The Raw Data Into AWS S3 Using Apache NIFI -> Transform The Data and Load into Snowflake Tables.
