@@ -3,7 +3,9 @@
 
 ### Introduction:
 
-This project focuses on generating synthetic datasets on an AWS EC2 instance using Docker and JupyterLab, orchestrating data movement to Amazon S3 through Apache NiFi, and performing transformation and loading operations into Snowflake tables. 
+This project focuses on generating synthetic datasets on an AWS EC2 instance using JupyterLab and orchestrating data movement to Amazon S3 through Apache NiFi, and performing transformation and loading operations into Snowflake tables. 
+
+Note : We used Docker Image to install Jupyter lab, Zookeeper and Apache NIFI on EC2
 
 ### Architecture:
 
@@ -26,4 +28,4 @@ It lets you store and retrieve any amount of data (like files, images, videos, l
 
 ### Project Flow:
 
-Generating The Raw Data Using Python Jupyter lab on EC2 -> Push The Raw Data Into AWS S3 Using Apache NIFI -> Transform The Data and Load into Snowflake Tables.
+Generating The Raw Data Using Python Jupyter lab on EC2 -> Push The Raw Data From AWS EC2 Into AWS S3 Using Apache NIFI -> Transform The Data and Load into Snowflake Tables.
